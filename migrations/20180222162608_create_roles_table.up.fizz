@@ -1,0 +1,7 @@
+create_table("roles", func(t) {
+  t.Column("user_id", "integer", {})
+  t.Column("project_id", "integer", {})
+  t.Column("topic_id", "integer", {})
+  t.ForeignKey("user_id", {"users": ["id"]}, {"on_delete": "cascade"})
+})
+

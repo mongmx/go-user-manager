@@ -1,0 +1,4 @@
+create_table("users", func(t) {
+  t.Column("username", "string", {})    
+  t.Column("email", "string", {})
+})

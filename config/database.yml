@@ -1,0 +1,11 @@
+development:
+  dialect: "mysql"
+  database: "go_user_manager"
+  host: "localhost"
+  port: "8083"
+  user: "root"
+  password: "root"
+
+# production:
+#   dialect: "sqlite3"
+#   database: "./test.sqlite"
